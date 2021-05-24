@@ -1,0 +1,1 @@
+! git config --list | grep -i 'user.email=scenario@katacoda.com' && ! git config --list | grep -i 'user.name=Katacoda Scenario' && echo "done"

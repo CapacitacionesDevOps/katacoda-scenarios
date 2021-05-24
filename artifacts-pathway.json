@@ -1,0 +1,18 @@
+{
+  "title": "Azure DevOps - Artifacts",
+  "description": "Taller práctico para el manejo de artefactos con Azure DevOps - Artifacts",
+  "icon": "fa-katacoda",
+  "courses": [
+    {
+      "course_id": "nuget-dotnet",
+      "title": "Gestión de Nugets con DotNet",
+      "description": "Vamos a conocer la forma de interactuar con los repositorios de artefactos de Azure DevOps."
+    },
+    {
+      "course_id": "universal",
+      "title": "Gestión de artefactos universales",
+      "description": "Vamos a aprender a cargar y descargar paquetes universales, además conocer comandos básicos de Azure CLI."
+    }
+  ]
+}
+ 

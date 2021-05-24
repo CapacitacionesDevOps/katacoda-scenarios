@@ -1,0 +1,28 @@
+{
+  "title": "Conociendo Azure Pipelines",
+  "description": "Vamos a aprender las funcionalidades del módulo en Azure DevOps. Antes de continuar, por favor verifica que tengas acceso",
+  "icon": "fa-katacoda",
+  "courses": [
+    {
+      "course_id": "crear-ramas",
+      "title": "Escenario 1: Crear las ramas en el repostorio",
+      "description": "Para este ejercicio, deberá crear una rama para realizar los cambios en el archivo que próximamente verá desplegado."
+    },
+    {
+      "course_id": "pipeline-IC",
+      "title": "Escenario 2: Configurando el pipeline de Integración",
+      "description": "Elabore el pipeline para preparar el artefacto con los cambios realizados."
+    },
+    {
+      "course_id": "pipeline-DC",
+      "title": "Escenario 3: Configrando el pipeline de Release",
+      "description": "Elabore el pipeline para desplegar el artefacto con los cambios realizados"
+    },
+    {
+      "course_id": "ejecucion-escenario",
+      "title": "Escenario 4: Realizando el despliegue del sitio",
+      "description": "Implemente los cambios en el ambiente, listo para ser consultado."
+    }
+  ]
+}
+ 

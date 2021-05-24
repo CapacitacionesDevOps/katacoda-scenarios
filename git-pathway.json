@@ -1,0 +1,43 @@
+{
+  "title": "¡Ya es hora!, Git está esperando en conocerte.",
+  "description": "Vamos a conocernos con Git mediante escenarios interactivos basados en navegador",
+  "icon": "fa-katacoda",
+  "courses": [
+    {
+      "course_id": "committing-files",
+      "title": "Escenario 1: Confirmación de archivos",
+      "description": "Aprenda a iniciar un repositorio y comenzar a enviar archivos."
+    },
+    {
+      "course_id": "committing-changes",
+      "title": "Escenario 2: Confirmación de cambios",
+      "description": "Aprenda a comparar y confirmar cambios."
+    },
+    {
+      "course_id": "working-remotely",
+      "title": "Escenario 3: Trabajando de forma remota",
+      "description": "Aprenda a compartir sus cambios con otros y acceder a los cambios de otras personas."
+    },
+    {
+      "course_id": "undoing-changes",
+      "title": "Escenario 4: Deshaciendo cambios",
+      "description": "Aprenda a deshacer cambios cuando sea necesario."
+    },
+    {
+      "course_id": "fixing-merge-conflicts",
+      "title": "Escenario 5: Solucionar conflictos de merge",
+      "description": "Aprenda a solucionar los conflictos de fusión cuando se produzcan."
+    },
+    {
+      "course_id": "experiments-using-branches",
+      "title": "Escenario 6: Experimentos con ramas",
+      "description": "Aprenda a crear ramas de master para experimentar y crear prototipos de ideas."
+    },
+    {
+      "course_id": "full-exercise",
+      "title": "Ejercicio completo",
+      "description": "Realice un flujo completo en un escenario colaborativo"
+    }
+  ]
+}
+ 

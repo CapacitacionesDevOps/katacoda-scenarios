@@ -1,0 +1,46 @@
+{
+  "title": "Escenario Gestión de artefactos universales",
+  "description": "Crear feeds, cargar y descargar paquetes universales",
+  "difficulty": "Principiante",
+  "time": "10 minutos",
+  "details": {
+    "steps": [
+      {
+        "title": "Crear organización, proyecto y feed",
+        "text": "step1.md"
+      },
+      {
+        "title": "Crear repositorio",
+        "text": "step2.md"
+      },
+      {
+        "title": "Configurar pipeline de CI",
+        "text": "step3.md"
+      },
+      {
+        "title": "Instalar Azure-CLI",
+        "text": "step5.md"
+      },
+      {
+        "title": "Iniciar sesión en Azure",
+        "text": "step6.md"
+      },
+      {
+        "title": "Descargar paquete universal",
+        "text": "step7.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "dotnet:3.1"
+  }
+}
