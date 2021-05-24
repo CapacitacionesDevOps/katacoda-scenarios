@@ -8,7 +8,7 @@
       {
         "title": "Paso 1: Preparar escenario",
         "text": "step1.md",
-        "background": "step1-background.sh"
+        "foreground": "step1-background.sh"
       },
       {
         "title": "Paso 2: Crear proyecto .net core",
