@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "Paso 1: Preparar escenario",
-        "text": "step1.md"
+        "text": "step1.md",
+        "background": "step1-background.sh"
       },
       {
         "title": "Paso 2: Crear proyecto .net core",
@@ -46,10 +47,11 @@
     }
   },
   "environment": {
-    "uieditorpath": "/root/taller/Aplicacion",
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/taller/Aplicacion"
+
   },
   "backend": {
-    "imageid": "dotnet:3.1"
+    "imageid": "bash1804"
   }
 }

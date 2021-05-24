@@ -30,6 +30,24 @@ Con la ayuda del editor, copia las siguientes líneas de código en el archivo n
 </configuration>
 ```{{copy}}
 
+Si analiza detenidamente, en el archivo nuget.config en la etiqueta ClearTextPassword debemos colocar el personal access token de Azure DevOps, que debería tener al menos permisos de lectura en el feed de Artifacts. Para este paso es necesario que usted genere el token, y para realizar este paso usted debera de dirigirse a https://grupoepm.visualstudio.com/CapacitacionesEPM e ingresar al menú de las configuraciones
+
+![generar-token](./assets/Generar-Token.png)
+
+Ahora el siguiente paso a seguir es crear el token. Entonces, deberá de seleccionar la opción New Token y para nombrarlo deberá de seguir el lineamiento Artifacts-<Inciales de su nombre>, por ejemplo:Si la usuaria se llama Milena López Zapata, su token deberá de llamarse: Artifacts-MLZ. Seleccionar en Scoopes la opción Custom defined, buscar la opción Packaging y seleccionar la opción Read. Para generar el token seleccione por último el botón de crear:
+
+![crear-token](./assets/Crear-Token.png)
+
+Después se abrirá una ventana al lado derecho de su pantalla, copie el token y péguelo en un sitio que sea seguro para usted (block de notas) Tenga en cuenta que este código por temas de seguridad solamente podrá obtenerlo por una vez.
+
+![copiar-token](./assets/Copiar-Token.png)
+
+Regrese a la consola de este ejercicio, y copie el siguiente comando teniendo en cuenta el token que generó en el paso anterior en Azure DevOps:
+
+`export VSS_NUGET_EXTERNAL_FEED_ENDPOINTS=<copia acá el token que generó en los pasos anteriores y debe de eliminarlos signos mayot y menor>`{{copy}}
+
+Para verificar la acción anterior puedes ejecutar el siguiente comando `printenv VSS_NUGET_EXTERNAL_FEED_ENDPOINTS`{{execute}}
+
 ## Nota
 
 La configuración de packageSourceCredentials quizás no sea necesaria en los proyectos reales en los que estés trabajando, ya que los pipelines de Azure DevOps y Visual Studio pueden manejar de manera transparente la autenticación de los repositorios.
