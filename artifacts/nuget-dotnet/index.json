@@ -2,7 +2,7 @@
   "title": "Escenario Gestión de Nugets con DotNet",
   "description": "Descripción.",
   "difficulty": "Principiante",
-  "time": "10 minutos",
+  "time": "20 minutos",
   "details": {
     "steps": [
       {
@@ -52,6 +52,6 @@
 
   },
   "backend": {
-    "imageid": "bash1804"
+    "imageid": "dotnet:3.1"
   }
 }

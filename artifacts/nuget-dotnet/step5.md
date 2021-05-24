@@ -17,15 +17,15 @@ Con la ayuda del editor, copia las siguientes líneas de código en el archivo n
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
-  <packageSources>
+    <packageSources>
     <clear />
-    <add key="org-epm-artefactos" value="https://grupoepm.pkgs.visualstudio.com/_packaging/org-epm-artefactos/nuget/v3/index.json" />
+    <add key="CapacitacionesEPM" value="https://pkgs.dev.azure.com/grupoEPM/CapacitacionesEPM/_packaging/capacitaciones-artifacts/nuget/v3/index.json" />
   </packageSources>
   <packageSourceCredentials>
-    <katacoda>
+    <CapacitacionesEPM>
       <add key="Username" value="cualquiercosa" />
       <add key="ClearTextPassword" value="%VSS_NUGET_EXTERNAL_FEED_ENDPOINTS%" />
-    </katacoda>
+    </CapacitacionesEPM>
 </packageSourceCredentials>
 </configuration>
 ```{{copy}}
