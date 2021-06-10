@@ -52,6 +52,6 @@
 
   },
   "backend": {
-    "imageid": "dotnet:3.1"
+    "imageid": "bash1804"
   }
 }
