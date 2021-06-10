@@ -8,12 +8,12 @@ git checkout "features/merge_$number_random"
 echo 'console.log("Modificado por otro desarrollador");' > $file
 git add $file
 git commit -m "Commit Inicial"
-git push https://ohc65ra6caz2veent7ohmqfl5xs3tq7tux67s7473bx4yr2paueq@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/Aprendiendo_Git "features/merge_$number_random"
+git push https://dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/Aprendiendo_Git "features/merge_$number_random"
 sleep 3
 git fetch origin
 git checkout remotes/origin/master
 git merge remotes/origin/"features/merge_$number_random"
-git push https://ohc65ra6caz2veent7ohmqfl5xs3tq7tux67s7473bx4yr2paueq@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/Aprendiendo_Git
+git push https://dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/Aprendiendo_Git
 sleep 3
 git checkout master
 git checkout .
