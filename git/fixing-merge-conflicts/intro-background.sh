@@ -11,7 +11,7 @@ git checkout -b "feature/cambio_archivo"
 sleep 3
 echo 'console.log("Modificado por otro desarrollador");' > $file
 git add $file
-git commit -m "Commit Inicial"
+git commit -m "Commit Inicial de la rama"
 sleep 3
 git checkout "master"
 echo 'console.log("Modificado por mi nuevamente");' > $file
