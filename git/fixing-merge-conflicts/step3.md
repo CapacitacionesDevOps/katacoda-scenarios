@@ -4,7 +4,7 @@ Una vez modificados los archivos y en el estado deseado, entonces debe ahora pre
 
 ## Tarea
 
-Resuelva el conflicto modificando el contenido del archivo en el editor dejando solo la línea `console.log("Modificado por mi");`, luego agregue esa modificación al área de preparación usando el comando `git add` y luego confirme la solución del conflicto usando `git commit`.
+Resuelva el conflicto modificando el contenido del archivo en el editor dejando solo la línea `console.log("Modificado por mi, nuevamente");`, luego agregue esa modificación al área de preparación usando el comando `git add` y luego confirme la solución del conflicto usando `git commit`.
 
 ## Tips
 
