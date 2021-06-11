@@ -1,7 +1,8 @@
 number_random=$RANDOM
 file="branch_$number_random.txt"
-git clone https://capacitaciones-azure-devops@dev.azure.com/capacitaciones-azure-devops/Aprendiendo_Git/_git/Aprendiendo_Git
+git init
 sleep 3
+mkdir Aprendiendo_Git
 cd Aprendiendo_Git
 echo 'console.log("Modificado por otro desarrollador");' > $file
 git add $file

@@ -1,1 +1,0 @@
-cd Aprendiendo_Git
