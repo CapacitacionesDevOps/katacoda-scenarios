@@ -8,7 +8,7 @@ Cuando no existan conflictos, la combinación se 'adelantará rápidamente' y no
 
 En su entorno, se ha confirmado un archivo usando la rama master y se ha creado una rama en la que también se ha creado el mismo archivo.
 
-En este momento debes estar en la rama feature/*. Se requiere que hagas un merge con la rama `master`. Para esto ejecuta el comando `git merge master`
+En este momento debes estar en la rama feature/cambio_archivo. Se requiere que hagas un merge con la rama `master`. Para esto ejecuta el comando `git merge feature/cambio_archivo`
 
 Esto resultará en un conflicto de fusión. El conflicto indica que la fusión falló porque ambos repositorios agregaron el archivo. Fíjate en el nombre del archivo que está causando conflictos porque lo necesitarás más adelante.
 Resolveremos esto en los siguientes pasos.
@@ -16,5 +16,3 @@ Resolveremos esto en los siguientes pasos.
 ## Tips
 
 Al mantener las confirmaciones pequeñas y enfocadas, reduce la probabilidad de un conflicto de fusión
-
-El comando `git pull` es una combinación de `fetch` y `merge`.

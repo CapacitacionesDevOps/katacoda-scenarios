@@ -8,6 +8,4 @@ Resuelva el conflicto modificando el contenido del archivo en el editor dejando 
 
 ## Tips
 
-Una manera sencilla de solucionar un conflicto es elegir la versión local o remota usando `git checkout --ours <name-file>` para elegir la versión local o `git checkout --theirs <name-file>` para elegir la versión remota. Pero estos comandos solo son aplicables cuando el conflicto se debe a un merge en la misma rama local y remota.
-
-Si desea revertir en medio de una fusión y volver a intentarlo, utilice el comando `git reset --hard HEAD`; para volver a su estado anterior. 
+Una manera sencilla de solucionar un conflicto es elegir la versión local o remota usando `git checkout --ours <name-file>` para elegir la versión local o `git checkout --theirs <name-file>` para elegir la versión de la otra rama. Pero estos comandos solo son aplicables cuando el conflicto se debe a un merge en la misma ramas en local.

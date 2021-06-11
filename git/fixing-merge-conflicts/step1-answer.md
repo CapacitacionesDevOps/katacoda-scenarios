@@ -1,1 +1,1 @@
-`git merge master`{{execute}}
+`git merge feature/cambio_archivo`{{execute}}
